@@ -1,0 +1,133 @@
+
+.page2 {
+    background: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;  
+}
+
+.page2Container {
+    width: 1020px;
+    height: 800px;
+    background-image: url(assets/Images/screen1Image.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.page2Header {
+    display: flex;
+    width: 900px;
+    height:70px;
+    
+}
+.homelink1 {
+    margin-left: 40px;
+    background-image: url(assets/buttons/homelink_blacklineWhiteFill.png);
+    width: 52px;
+    height: 41px;
+}
+
+.homelink1:hover {
+    color: darkgrey;
+}
+.page2Title {
+    margin: 0px 20px 0px 100px;
+    font-family: "AmaticSC-Regular"; 
+    font-size: 48px;
+}
+
+.page2Instructions {
+    font-family: "Simple Print";
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 25px;      
+}
+
+.mainBoxContainer {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 800px;    
+}
+
+.topSection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+}
+
+.middleSection {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex: 0 0 100%;    
+}
+
+.middleOne {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 480px; 
+}
+
+.circle {
+    width: 160px;
+    height: 160px;
+    background-image: url(assets/Images/greyblob.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circle.black {
+    background-image: url(assets/Images/blackblob.png);
+}
+
+.circle.white {
+    background-image: url(assets/Images/whiteblob.png);
+}
+
+.middleTwo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 160px;
+}
+
+.boxWrapper {
+    padding: 10px;
+}
+
+.Box {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Box.black {
+    background-color: black;
+}
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.next1 {
+    display: flex;
+    align-items: center;  
+}
+
+.next1 img {
+    padding-left: 4px;
+}
+
+.next1:hover {
+    color: darkgrey;
+}

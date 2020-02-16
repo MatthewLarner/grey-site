@@ -1,0 +1,30 @@
+html, *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    font-family: "AmaticSC-Regular"; 
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.blobButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+  font-family: "Simple Print";
+  src: url("assets/fonts/Simple Print.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "AmaticSC-Regular";
+  src: url("assets/fonts/AmaticSC-Regular.ttf") format("woff2");
+}

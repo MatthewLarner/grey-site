@@ -1,0 +1,142 @@
+.page3 {
+    background: #1A1A1A; 
+}
+
+.page3Container {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;  
+    margin: 0 auto;
+}
+
+.page3Header {
+    width: 1020px;
+    height: 240px;
+    display: flex;
+    background-image: url(assets/Images/screen2Lines_1.png);
+    background-repeat: no-repeat;
+    background-position: top; 
+    align-items: flex-start;
+}
+
+.homelink2 {
+    margin-left: 40px;
+    background-image: url(assets/buttons/homelink_whiteline.png);
+    width: 52px;
+    height: 41px;
+    color: white;
+}
+
+.homelink2:hover {
+    color: darkgrey;
+}
+.soundContainer {
+    width: 120px;
+    display: flex;
+    margin: 30 auto;
+    align-items: flex-start;
+}
+.page3SubTitle {
+    font-family: "Simple Print";
+    font-size: 24px;
+    color: #f2f2f2;
+    padding-top: 2px;
+    padding-right: 8px;
+}
+
+.page3Main { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page3Title {
+    font-family: "AmaticSC-Regular"; 
+    font-size: 48px;
+    color: #f2f2f2;
+}
+
+.buttonsRow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    max-height: 106px;
+}
+
+.playButtonPadding {
+    padding: 20px;
+}
+
+.loopNames {
+    font-family: "Simple Print";
+    font-size: 24px;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
+.playButton{
+    width: 87px;
+    height: 86px;
+    background-image: url(assets/buttons/playButton.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    margin: none;
+    outline: none;
+    border: none;
+}
+
+.playButton:hover {
+    background-image: url(assets/buttons/playbutton_hover.png);
+}
+.playButton.playing {
+    width: 87px;
+    height: 86px;
+    background-image: url(assets/buttons/pausebutton_1.png);
+    background-color: transparent;
+    margin: none;
+    outline: none;
+    border: none;
+}
+
+.paragraph{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Simple Print";
+    font-size: 20px;
+    color: #f2f2f2;   
+    padding: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.next2 {
+    color: white;
+    display: flex;
+    align-items: center;  
+}
+
+.next2:hover {
+    color: darkgrey;
+}
+
+.next2 img {
+    padding-left: 4px;
+}
+
+

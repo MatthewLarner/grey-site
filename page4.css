@@ -1,0 +1,179 @@
+.page4 {
+    background: #f2f2f2;
+}
+
+.page4Container {
+    width:1020px;
+    height:1501px;
+    background-image:url(assets/Images/screen4background.png);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.homelink1 {
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(assets/buttons/homelink_blacklineWhiteFill.png);
+    width: 52px;
+    flex: 0 0 41px;
+}
+
+h1 {
+    font-family: "AmaticSC-Regular";
+    font-size: 150px;
+    
+}
+
+h2 {
+    font-family: "AmaticSC-Regular";
+    font-size: 100px;
+}
+
+h3{
+    font-family: "AmaticSC-Regular";
+    font-size: 67px;
+}
+
+h4 {
+    font-family: "AmaticSC-Regular";
+    font-size: 50px;
+}
+
+.line1 {
+    margin-left: 440px;
+    margin-top: 50px;
+    animation: rot 5.2s linear 0.50s infinite;
+    animation-fill-mode: both;   
+}
+
+
+.line2{
+    margin-left:700px;
+    margin-top: 75px;
+}
+
+.line3 {
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.line4 {
+    margin-left: 280px;
+    margin-top: 100px;
+}
+
+.line5 {
+    margin-left: 520px;
+    margin-top: -25px;
+}
+
+.line6 {
+    margin-left: 600px;
+    margin-top: 60px;
+}
+
+.line7 {
+    margin-left: 200px;
+    margin-top: 90px;
+}
+
+.line8{
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
+.line9 {
+    margin: 60px auto;
+    text-align: center;
+    animation: pulse 2.5s ease 0s infinite;
+    animation-fill-mode: both;
+}
+
+.bottomSection {
+    display: flex;
+    align-items: center;
+    background-image: url(assets/Images/screen3GreySplots.png);
+}
+
+.middleSection {
+    display:flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.bottom {
+    margin-left: 900px;
+}
+
+
+@keyframes rot {
+	from {
+		transform: rotate(0deg)
+		           translate(-10px)
+		           rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-10px) 
+		           rotate(-360deg);
+	}
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    
+    10% {
+        color: #5E5E5E;
+    }
+    20% {
+        color: #6D6D6D;
+    }
+    
+    30% {
+        color: #848484;
+    }
+    
+    40% {
+        color: #999898;
+    }
+    
+    50% {
+        transform: scale(0.98);   
+        color: #B7B6B6;
+    }
+    
+    60% {
+        color: #999898;
+    }
+    
+    70% {
+        color: #848484;
+    }
+    
+    80% {
+        color: #6D6D6D;
+    }
+    
+    90% {
+        color: #5E5E5E;
+    }
+    
+    95% {
+        transform: scale(1);
+        color: black;
+    }
+}
+
+.dotCircle {
+    animation: rot 5.2s linear 0.50s infinite;
+    animation-fill-mode: both;  
+}
+
+.bigCircle {
+   animation: rot 5.2s linear 2s infinite;
+   animation-fill-mode: both; 
+}

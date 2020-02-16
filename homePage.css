@@ -1,0 +1,122 @@
+.home {
+    background: #1A1A1A;
+}
+
+.homePage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 44px; 
+    font-family: "AmaticSC-Regular";  
+}
+
+.homePageContainer {
+    display: block;
+    width: 995px;
+    height: 671px;
+    background: url(assets/Images/homepage_backgroundImage_1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.circleContent {
+    display: block;
+    width: 548px;
+    height: 493px;
+    margin-left: 280px;
+    margin-top: -50px;
+    background: url(assets/Images/homepage_Circle.png);
+}
+
+.homePage .instructions {
+    color: #1A1A1A;
+    font-size: 31px;
+    margin-top: 16px;
+    margin-left: 80px;
+}
+
+.homePage .instructions span {
+    color:#1A1A1A;
+    font-size: 47px;
+}
+
+.backgroundInfo {
+    display: block;
+    color: #f2f2f2;
+    font-size: 31px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.linkscreen1 {
+    background: url(assets/buttons/homebutton1.png);
+    width: 122px;
+    height: 101px;
+    margin-top: 90px;
+    margin-left: 150px;
+    border: none; 
+    padding-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: rotate 5s linear 0.5s infinite;
+    animation-fill-mode: both;
+}
+
+.linkscreen1:hover {
+    background: url(assets/buttons/homebutton1_hover_1.png);
+    background-repeat: no-repeat;
+}
+
+.linkscreen2 {
+    background: url(assets/buttons/linkbutton2_1.png);
+    width: 104px;
+    height: 94px;
+    border: none;
+    margin-top: -115px;
+    margin-left: 335px;  
+    animation: rotate 7.5s ease 1.2s infinite;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+}
+
+.linkscreen2:hover {
+    background: url(assets/buttons/homebutton2_hover_1.png);   
+}
+
+.linkscreen3{
+    background: url(assets/buttons/homebutton3.png);
+    width: 107px;
+    height: 90px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 188px;  
+    animation: rotate 5.2s ease-in 1.5s infinite;
+    animation-fill-mode: both;
+}
+
+.linkscreen3:hover{
+    background: url(assets/buttons/homebutton3_hover_1.png);
+}
+
+a {
+    display: inline-block;
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(-20deg);
+    }
+    
+    50% {
+        transform: rotate(20deg);
+        
+    }
+    
+    100% {
+        transform: rotate(-20deg);
+    }
+}
